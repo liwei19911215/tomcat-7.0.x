@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.6" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="libs" scope="COMPILE">
+		<srcroot url="file://$MODULE_DIR$/libs/commons-dbcp-1.4-src/doc"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/commons-dbcp-1.4-src/src/java"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/commons-dbcp-1.4-src/src/test"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/commons-pool-1.5.7-src/src/java"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/commons-pool-1.5.7-src/src/test"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/tomcat7-deps/dbcp/doc"/>
+		<srcroot bind="false" url="file://$MODULE_DIR$/libs/tomcat7-deps/dbcp/src/java"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/commons-dbcp-1.4-src/doc"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/commons-dbcp-1.4-src/src/java"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/commons-dbcp-1.4-src/src/test"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/commons-pool-1.5.7-src/src/java"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/commons-pool-1.5.7-src/src/test"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/tomcat7-deps/dbcp/doc"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/tomcat7-deps/dbcp/src/java"/>
+		<relative-module-cls project-related="file://$PROJECT_DIR$/libs"/>
+		<relative-module-javadoc project-related="file://$PROJECT_DIR$/libs/commons-daemon-1.0.15/apidocs"/>
+	</lib>
+</component>
